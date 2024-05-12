@@ -3,7 +3,7 @@ import inst from "../../assets/instagram.svg";
 import linkedIn from "../../assets/linkedin-svgrepo-com-2.svg";
 import gitHub from "../../assets/github-142-svgrepo-com.svg";
 import x from "../../assets/11053970_x_logo_twitter_new_brand_icon.svg";
-import linkSVG from "../../assets/link-svgrepo-com.svg";
+// import linkSVG from "../../assets/link-svgrepo-com.svg";
 import nestSVG from "../../assets/nest-middleware-ts-svgrepo-com.svg";
 import nodeSVG from "../../assets/node-js-svgrepo-com.svg";
 import nextSVG from "../../assets/nextjs.svg";
