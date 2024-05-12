@@ -1,5 +1,5 @@
 import "./home.css";
-import inst from "../../assets/instagram-color-svgrepo-com.svg";
+import inst from "../../assets/instagram.svg";
 import linkedIn from "../../assets/linkedin-svgrepo-com-2.svg";
 import gitHub from "../../assets/github-142-svgrepo-com.svg";
 import x from "../../assets/11053970_x_logo_twitter_new_brand_icon.svg";
@@ -184,7 +184,7 @@ const HomePage = () => {
                   href="https://github.com/DenysGarbuz/telegram-clone"
                   imageUrl="/telegram.png"
                   name="Telegram clone"
-                  tags={["next.js", "mongoDB", "WebSocket", "JWT"]}
+                  tags={["Next.js", "Express", "MongoDB", "WebSocket", "JWT"]}
                   desc="This is a precise recreation of Telegram Desktop on the web. I've
                       implemented a vast array of its functionalities, including reply,
                       delete, edit, sending files, and creating groups"
@@ -206,7 +206,7 @@ const HomePage = () => {
                   href="https://github.com/IQExplorers/Promptopedia"
                   imageUrl="/promtopedia.jpeg"
                   name="Promtopedia"
-                  tags={["next.js", "mongoDB", "WebSocket", "JWT"]}
+                  tags={["Next.js", "MongoDB", "WebSocket", "JWT"]}
                   desc="This is a precise recreation of Telegram Desktop on the web. I've
                       implemented a vast array of its functionalities, including reply,
                       delete, edit, sending files, and creating groups"

@@ -10,6 +10,9 @@
     flex-direction: column;
   }
 }
+
+
+
 @media (min-width: 600px) {
   #projects .image {
     border: 2px solid rgb(218, 218, 218);
@@ -23,13 +26,15 @@
 
 @media (max-width: 1024px) {
 
+
+
     #projects .background{
         display: none;
     }
 
-    /* #projects .link-background{
+    #projects .link-background{
         display: none;
-    } */
+    }
   }
 
 #projects .project {
