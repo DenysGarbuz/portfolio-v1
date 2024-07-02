@@ -22,6 +22,7 @@ import awsSVG from "../../assets/aws-svgrepo-com.svg";
 import reactSVG from "../../assets/react-svgrepo-com.svg";
 import dockerSVG from "../../assets/docker-svgrepo-com.svg";
 import leetcodeSVG from "../../assets/leetcode.svg";
+import springSVG from "../../assets/spring-icon-svgrepo-com.svg";
 import { useEffect, useRef, useState } from "react";
 import Project from "../project/project";
 
@@ -181,10 +182,35 @@ const HomePage = () => {
             <ul>
               <li>
                 <Project
+                  href="https://github.com/DenysGarbuz/e-commerse-microservice"
+                  imageUrl="/spring.jpg"
+                  name="E-Commerce"
+                  tags={[
+                    "Spring Boot",
+                    "Spring Data",
+                    "Spring Cloud",
+                    "Spring Security",
+                    "Spring Gateway",
+                    "MongoDB",
+                    "PostgreSQL",
+                  ]}
+                  desc="Microservices architecture utilizing an API gateway and load balancer to 
+                  facilitate seamless communication between order services, inventory service, and products service, 
+                  ensuring scalability and fault tolerance across the ecosystem"
+                />
+              </li>
+              <li>
+                <Project
                   href="https://github.com/DenysGarbuz/telegram-clone"
                   imageUrl="/telegram.png"
                   name="Telegram clone"
-                  tags={["Next.js", "Express", "MongoDB", "WebSocket", "JWT"]}
+                  tags={[
+                    "Next.js",
+                    "Express.js",
+                    "MongoDB",
+                    "WebSocket",
+                    "JWT",
+                  ]}
                   desc="This is a precise recreation of Telegram Desktop on the web. I've
                       implemented a vast array of its functionalities, including reply,
                       delete, edit, sending files, and creating groups"
@@ -206,7 +232,7 @@ const HomePage = () => {
                   href="https://github.com/IQExplorers/Promptopedia"
                   imageUrl="/promtopedia.jpeg"
                   name="Promtopedia"
-                  tags={["Next.js", "MongoDB", "WebSocket", "JWT"]}
+                  tags={["Next.js", "MongoDB", "OAuth2"]}
                   desc="This is a precise recreation of Telegram Desktop on the web. I've
                       implemented a vast array of its functionalities, including reply,
                       delete, edit, sending files, and creating groups"
@@ -219,6 +245,12 @@ const HomePage = () => {
               <h2>Technologies I've worked with</h2>
             </div>
             <ul>
+              <li>
+                <img src={javaSVG} alt="" />
+              </li>
+              <li>
+                <img src={springSVG} alt="" />
+              </li>
               <li>
                 <img src={nodeSVG} alt="" />
               </li>
@@ -246,9 +278,7 @@ const HomePage = () => {
               <li>
                 <img src={gitSVG} alt="" />
               </li>
-              <li>
-                <img src={javaSVG} alt="" />
-              </li>
+
               <li>
                 <img src={htmlSVG} alt="" />
               </li>
